@@ -2,7 +2,6 @@
 
 Welcome to simple-web-app!
 
-This repository was automatically initialized by the Slack Bot.
+This is a simple web application project. Below are the details you need to get started.
 
----
-*Created automatically by Slack Bot 🤖*
+## Project Structure
