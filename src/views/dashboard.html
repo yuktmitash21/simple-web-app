@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Audit Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Digital Audit Dashboard</h1>
+    </header>
+    <main>
+        <section id="visual-waste-logs">
+            <h2>Visual Waste Logs</h2>
+            <input type="file" id="waste-photo" accept="image/*">
+            <button onclick="submitWasteLog()">Submit Photo</button>
+        </section>
+        <section id="ai-estimation">
+            <h2>AI Estimation</h2>
+            <p id="estimation-result">Upload a photo to get an estimation.</p>
+        </section>
+        <section id="hauler-verification">
+            <h2>Hauler Verification</h2>
+            <button onclick="logPickup()">Log a Pickup</button>
+            <p id="pickup-log">No pickups logged yet.</p>
+        </section>
+    </main>
+    <script src="dashboard.js"></script>
+</body>
+</html>
