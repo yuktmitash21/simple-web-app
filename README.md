@@ -2,7 +2,8 @@
 
 Welcome to simple-web-app!
 
-This repository was automatically initialized by the Slack Bot.
+This repository contains a simple single-page application for finding dogwashers near you. Enter your location to see a list of available dogwashers and their ratings.
 
----
-*Created automatically by Slack Bot 🤖*
+## Setup
+
+1. Clone the repository:
